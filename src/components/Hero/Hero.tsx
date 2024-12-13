@@ -7,7 +7,7 @@ import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
-import instagram from "../../assets/instagram.svg"
+import instagrams from "../../assets/Instagrams.webp"
 export function Hero() {
   return (
     <Container id="home">
@@ -21,7 +21,7 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>I'm a Web Developer</h3>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000} style={{ marginTop: "3rem", marginBottom: "2rem" }}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000} style={{ marginTop: "4rem", marginBottom: "1rem" }}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
@@ -53,7 +53,7 @@ export function Hero() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagram} alt="instagram" />
+          <img src={instagrams} alt="instagram" />
         </a>
         </div>
         </ScrollAnimation>
