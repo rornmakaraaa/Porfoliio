@@ -1,3 +1,13 @@
-This porfolio was created with ReactJs
+# Portfolio of RORN Makara
+This project was created with CRA (Create React App)
 
-This porfolio introduce me including contacts, my project, and Cv.
+This is my portfolio website to introduce myself, here I put my skills, projects, and contact details.
+
+## Technologies used:
+- React
+- Typescript
+- Styled Components
+
+## To run this project:
+- npm install
+- npm  start
